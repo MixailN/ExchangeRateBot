@@ -63,12 +63,14 @@ public class MessageParser {
         Matcher matcher = pattern.matcher(message);
         logger.info("Trying to find date.");
         if(matcher.find()) {
-            SimpleDateFormat format = new SimpleDateFormat("dd.mm.yyyy");
-            format.setLenient(false);
+            SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
             try {
                 Date date = format.parse(matcher.group());
-                logger.info("Date was successfully found.");
-                return String.valueOf(format.format(date));
+                System.out.println(matcher.group() + "  " + format.format(date));
+                if(matcher.group().equals(format.format(date))) {
+                    logger.info("Date was successfully found.");
+                    return format.format(date);
+                }
             } catch (ParseException e) {
                 logger.error("Error was occurred when date was parsing: " + e.getMessage());
             }

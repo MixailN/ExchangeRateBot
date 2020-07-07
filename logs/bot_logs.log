@@ -97,3 +97,144 @@
 2020-07-07 11:40:50,492 INFO r.m.e.InfoGetter [main] Info from currencies.json was successfully received.
 2020-07-07 11:40:50,492 INFO r.m.e.MessageParser [main] Trying to find date.
 2020-07-07 11:40:50,492 WARN r.m.e.MessageParser [main] Date wasn't found.
+2020-07-07 12:05:15,399 INFO r.m.e.InfoGetter [main] Getting info from .json files.
+2020-07-07 12:05:15,422 INFO r.m.e.InfoGetter [main] Info from dictionary.json was successfully received.
+2020-07-07 12:05:15,433 INFO r.m.e.InfoGetter [main] You're here.
+2020-07-07 12:05:15,434 INFO r.m.e.InfoGetter [main] Info from cities.json was successfully received.
+2020-07-07 12:05:15,437 INFO r.m.e.InfoGetter [main] Info from currencies.json was successfully received.
+2020-07-07 12:05:15,440 INFO r.m.e.MessageParser [main] Trying to find date.
+2020-07-07 12:05:15,441 WARN r.m.e.MessageParser [main] Date wasn't found.
+2020-07-07 12:05:37,402 INFO r.m.e.Main [main] Bot is starting.
+2020-07-07 12:05:40,524 INFO r.m.e.Main [main] Bot successfully started
+2020-07-07 12:05:56,760 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Getting info from .json files.
+2020-07-07 12:05:56,773 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from dictionary.json was successfully received.
+2020-07-07 12:05:56,786 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] You're here.
+2020-07-07 12:05:56,789 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from cities.json was successfully received.
+2020-07-07 12:05:56,793 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from currencies.json was successfully received.
+2020-07-07 12:05:56,805 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Message was received.
+2020-07-07 12:05:56,807 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find city in the dictionary.
+2020-07-07 12:05:56,811 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] City was successfully found
+2020-07-07 12:05:56,812 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find currency in the dictionary.
+2020-07-07 12:05:56,813 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Currency was successfully found
+2020-07-07 12:05:56,817 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find date.
+2020-07-07 12:05:56,820 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Date was successfully found.
+2020-07-07 12:05:56,832 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Trying to get page https://cbr.ru/currency_base/daily/?UniDbQuery.Posted=True&UniDbQuery.To=31.02.2018
+2020-07-07 12:05:58,275 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Page was successfully received.
+2020-07-07 12:05:58,280 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Trying to get info from Central Bank.
+2020-07-07 12:05:58,285 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Info from Central Bank was successfully received.
+2020-07-07 12:05:58,461 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Sent answer message.
+2020-07-07 12:08:31,185 INFO r.m.e.Main [main] Bot is starting.
+2020-07-07 12:08:34,263 INFO r.m.e.Main [main] Bot successfully started
+2020-07-07 12:08:43,987 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Getting info from .json files.
+2020-07-07 12:08:44,012 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from dictionary.json was successfully received.
+2020-07-07 12:08:44,025 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] You're here.
+2020-07-07 12:08:44,026 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from cities.json was successfully received.
+2020-07-07 12:08:44,029 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from currencies.json was successfully received.
+2020-07-07 12:08:44,051 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Message was received.
+2020-07-07 12:08:44,052 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find city in the dictionary.
+2020-07-07 12:08:44,054 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] City was successfully found
+2020-07-07 12:08:44,055 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find currency in the dictionary.
+2020-07-07 12:08:44,055 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Currency was successfully found
+2020-07-07 12:08:44,059 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find date.
+2020-07-07 12:08:44,064 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Date was successfully found.
+2020-07-07 12:08:44,074 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Trying to get page https://cbr.ru/currency_base/daily/?UniDbQuery.Posted=True&UniDbQuery.To=31.02.2018
+2020-07-07 12:08:45,127 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Page was successfully received.
+2020-07-07 12:08:45,147 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Trying to get info from Central Bank.
+2020-07-07 12:08:45,162 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Info from Central Bank was successfully received.
+2020-07-07 12:08:45,328 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Sent answer message.
+2020-07-07 12:10:51,162 INFO r.m.e.Main [main] Bot is starting.
+2020-07-07 12:10:53,754 INFO r.m.e.Main [main] Bot successfully started
+2020-07-07 12:11:03,602 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Getting info from .json files.
+2020-07-07 12:11:03,616 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from dictionary.json was successfully received.
+2020-07-07 12:11:03,625 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] You're here.
+2020-07-07 12:11:03,628 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from cities.json was successfully received.
+2020-07-07 12:11:03,630 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from currencies.json was successfully received.
+2020-07-07 12:11:03,633 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Message was received.
+2020-07-07 12:11:03,634 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find city in the dictionary.
+2020-07-07 12:11:03,644 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] City was successfully found
+2020-07-07 12:11:03,645 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find currency in the dictionary.
+2020-07-07 12:11:03,645 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Currency was successfully found
+2020-07-07 12:11:03,648 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find date.
+2020-07-07 12:11:03,664 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Date was successfully found.
+2020-07-07 12:11:03,752 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Trying to get page https://cbr.ru/currency_base/daily/?UniDbQuery.Posted=True&UniDbQuery.To=29.02.2019
+2020-07-07 12:11:05,314 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Page was successfully received.
+2020-07-07 12:11:05,329 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Trying to get info from Central Bank.
+2020-07-07 12:11:05,349 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Info from Central Bank was successfully received.
+2020-07-07 12:11:05,567 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Sent answer message.
+2020-07-07 12:13:51,442 INFO r.m.e.Main [main] Bot is starting.
+2020-07-07 12:13:53,377 INFO r.m.e.Main [main] Bot successfully started
+2020-07-07 12:14:06,538 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Getting info from .json files.
+2020-07-07 12:14:06,544 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from dictionary.json was successfully received.
+2020-07-07 12:14:06,552 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] You're here.
+2020-07-07 12:14:06,552 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from cities.json was successfully received.
+2020-07-07 12:14:06,554 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from currencies.json was successfully received.
+2020-07-07 12:14:06,573 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Message was received.
+2020-07-07 12:14:06,574 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find city in the dictionary.
+2020-07-07 12:14:06,577 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] City was successfully found
+2020-07-07 12:14:06,579 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find currency in the dictionary.
+2020-07-07 12:14:06,579 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Currency was successfully found
+2020-07-07 12:14:06,581 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find date.
+2020-07-07 12:14:06,583 ERROR r.m.e.MessageParser [TradeStandoBot Telegram Executor] Error was occurred when date was parsing: Unparseable date: "29.02.2019"
+2020-07-07 12:14:06,584 WARN r.m.e.MessageParser [TradeStandoBot Telegram Executor] Date wasn't found.
+2020-07-07 12:14:06,733 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Sent answer message.
+2020-07-07 12:14:55,631 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Message was received.
+2020-07-07 12:14:55,632 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find city in the dictionary.
+2020-07-07 12:14:55,632 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] City was successfully found
+2020-07-07 12:14:55,632 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find currency in the dictionary.
+2020-07-07 12:14:55,633 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Currency was successfully found
+2020-07-07 12:14:55,633 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find date.
+2020-07-07 12:14:55,634 ERROR r.m.e.MessageParser [TradeStandoBot Telegram Executor] Error was occurred when date was parsing: Unparseable date: "28.02.2019"
+2020-07-07 12:14:55,634 WARN r.m.e.MessageParser [TradeStandoBot Telegram Executor] Date wasn't found.
+2020-07-07 12:14:55,898 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Sent answer message.
+2020-07-07 12:16:26,209 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Message was received.
+2020-07-07 12:16:26,211 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find city in the dictionary.
+2020-07-07 12:16:26,212 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] City was successfully found
+2020-07-07 12:16:26,213 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find currency in the dictionary.
+2020-07-07 12:16:26,216 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Currency was successfully found
+2020-07-07 12:16:26,217 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find date.
+2020-07-07 12:16:26,221 ERROR r.m.e.MessageParser [TradeStandoBot Telegram Executor] Error was occurred when date was parsing: Unparseable date: "06.07.2020"
+2020-07-07 12:16:26,221 WARN r.m.e.MessageParser [TradeStandoBot Telegram Executor] Date wasn't found.
+2020-07-07 12:16:26,773 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Sent answer message.
+2020-07-07 12:17:40,228 INFO r.m.e.Main [main] Bot is starting.
+2020-07-07 12:17:43,037 INFO r.m.e.Main [main] Bot successfully started
+2020-07-07 12:18:27,299 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Getting info from .json files.
+2020-07-07 12:18:27,308 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from dictionary.json was successfully received.
+2020-07-07 12:18:27,320 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] You're here.
+2020-07-07 12:18:27,324 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from cities.json was successfully received.
+2020-07-07 12:18:27,343 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from currencies.json was successfully received.
+2020-07-07 12:18:27,381 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Message was received.
+2020-07-07 12:18:27,386 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find city in the dictionary.
+2020-07-07 12:18:27,403 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] City was successfully found
+2020-07-07 12:18:27,408 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find currency in the dictionary.
+2020-07-07 12:18:27,411 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Currency was successfully found
+2020-07-07 12:18:27,414 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find date.
+2020-07-07 12:18:27,424 ERROR r.m.e.MessageParser [TradeStandoBot Telegram Executor] Error was occurred when date was parsing: Unparseable date: "27.02.2019"
+2020-07-07 12:18:27,426 WARN r.m.e.MessageParser [TradeStandoBot Telegram Executor] Date wasn't found.
+2020-07-07 12:18:27,881 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Sent answer message.
+2020-07-07 12:20:26,714 INFO r.m.e.Main [main] Bot is starting.
+2020-07-07 12:20:29,018 INFO r.m.e.Main [main] Bot successfully started
+2020-07-07 12:20:34,998 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Getting info from .json files.
+2020-07-07 12:20:35,004 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from dictionary.json was successfully received.
+2020-07-07 12:20:35,043 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] You're here.
+2020-07-07 12:20:35,045 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from cities.json was successfully received.
+2020-07-07 12:20:35,047 INFO r.m.e.InfoGetter [TradeStandoBot Telegram Executor] Info from currencies.json was successfully received.
+2020-07-07 12:20:35,068 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Message was received.
+2020-07-07 12:20:35,070 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find city in the dictionary.
+2020-07-07 12:20:35,072 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] City was successfully found
+2020-07-07 12:20:35,072 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find currency in the dictionary.
+2020-07-07 12:20:35,072 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Currency was successfully found
+2020-07-07 12:20:35,073 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find date.
+2020-07-07 12:20:35,077 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Date was successfully found.
+2020-07-07 12:20:35,079 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Trying to get page https://cbr.ru/currency_base/daily/?UniDbQuery.Posted=True&UniDbQuery.To=27.02.2019
+2020-07-07 12:20:36,283 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Page was successfully received.
+2020-07-07 12:20:36,291 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Trying to get info from Central Bank.
+2020-07-07 12:20:36,299 INFO r.m.e.CentralBankParser [TradeStandoBot Telegram Executor] Info from Central Bank was successfully received.
+2020-07-07 12:20:36,453 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Sent answer message.
+2020-07-07 12:20:55,431 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Message was received.
+2020-07-07 12:20:55,438 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find city in the dictionary.
+2020-07-07 12:20:55,440 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] City was successfully found
+2020-07-07 12:20:55,443 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find currency in the dictionary.
+2020-07-07 12:20:55,444 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Currency was successfully found
+2020-07-07 12:20:55,444 INFO r.m.e.MessageParser [TradeStandoBot Telegram Executor] Trying to find date.
+2020-07-07 12:20:55,446 WARN r.m.e.MessageParser [TradeStandoBot Telegram Executor] Date wasn't found.
+2020-07-07 12:20:55,622 INFO r.m.e.ExchangeRateBot [TradeStandoBot Telegram Executor] Sent answer message.
