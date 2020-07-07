@@ -14,8 +14,8 @@ import java.util.Set;
 import java.util.TreeMap;
 
 public class BankParser {
-    private  static final String ODD_CLASSNAME = "productBank tr-turn tr-link  row body odd";
-    private  static  final String EVEN_CLASSNAME = "productBank tr-turn tr-link  row body even";
+    private static final String ODD_CLASSNAME = "productBank tr-turn tr-link  row body odd";
+    private static final String EVEN_CLASSNAME = "productBank tr-turn tr-link  row body even";
     private static final Logger logger = LogManager.getLogger();
     private Document doc;
 
@@ -32,14 +32,14 @@ public class BankParser {
     public TreeMap<String, String> getHtmlInfo() {
         Element table = doc.getElementsByTag("tbody").get(1);
         Element firsttable = doc.getElementsByTag("tbody").get(0);
-        if(firsttable.children().size() > 3) {
+        if (firsttable.children().size() > 3) {
             logger.warn("Currency doesn't exchange there.");
             return null;
         }
-        Elements tableChildren = table.select("tr[class=" + EVEN_CLASSNAME +"],tr[class=" + ODD_CLASSNAME + "]");
+        Elements tableChildren = table.select("tr[class=" + EVEN_CLASSNAME + "],tr[class=" + ODD_CLASSNAME + "]");
 
         TreeMap<String, String> map = new TreeMap<String, String>();
-        for(var tmp : tableChildren) {
+        for (var tmp : tableChildren) {
             Elements tmpChildren = tmp.children();
             map.put(tmpChildren.get(0).text() + ":\n", "Покупка: " + tmpChildren.get(1).text() + "Продажа: " + tmpChildren.get(2).text() + "\n");
         }

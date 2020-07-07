@@ -23,8 +23,8 @@ public class CentralBankParser {
         }
     }
 
-    public String getCentralBankRate(String currency){
-        if(doc.getElementsByTag("tbody").isEmpty()){
+    public String getCentralBankRate(String currency) {
+        if (doc.getElementsByTag("tbody").isEmpty()) {
             logger.warn("Central Bank has no information about this date.");
             return null;
         }
@@ -33,9 +33,9 @@ public class CentralBankParser {
         Element button = doc.getElementsByClass("datepicker-filter_button").get(0);
         currency = currency.toUpperCase();
         String result = button.text() + "\n";
-        for(var tmp : table.children()) {
+        for (var tmp : table.children()) {
             Elements tmpChildren = tmp.children();
-            if(tmpChildren.get(1).text().equals(currency)) {
+            if (tmpChildren.get(1).text().equals(currency)) {
                 result += tmpChildren.get(3).text() + " Курс: " + tmpChildren.get(4).text();
                 logger.info("Info from Central Bank was successfully received.");
                 return result;

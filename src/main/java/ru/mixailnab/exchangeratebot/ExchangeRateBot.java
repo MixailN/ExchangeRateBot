@@ -10,8 +10,6 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public class ExchangeRateBot extends TelegramLongPollingBot {
-    private static final String TOKEN = "880988202:AAHY4I9TJ3NLGTAvAkaDCr8mtvM_QzlrxYQ";
-    private static final String USERNAME = "TradeStandoBot";
     private static final Logger logger = LogManager.getLogger();
 
     public ExchangeRateBot(DefaultBotOptions options) {
@@ -55,14 +53,14 @@ public class ExchangeRateBot extends TelegramLongPollingBot {
                 if (city == null) {
                     answer += "Проверьте правильность написания названия города! Список доступных городов /city. \n";
                 }
-                if (currency == null ) {
+                if (currency == null) {
                     answer += "Проверьте правильность написания названия валюты! Список доступных валют /currency \n";
                 }
 
             } else if (city.equals("ЦБ")) {
                 String date = messageParser.findDate(update.getMessage().getText());
                 if (date == null) {
-                    answer = "Ошибка в указании даты. Введите верную дату в формате dd.mm.yyyy";
+                    answer = "Ошибка в указании даты. Введите существующую дату в формате dd.mm.yyyy";
                 } else {
                     CentralBankParser centralBankParser = new CentralBankParser(urlCreator.createURLCentralBank(date));
                     answer = centralBankParser.getCentralBankRate(currency);
@@ -95,10 +93,10 @@ public class ExchangeRateBot extends TelegramLongPollingBot {
     }
 
     public String getBotUsername() {
-        return USERNAME;
+        return InfoGetter.getInstance().getBotConfig().get("username");
     }
 
     public String getBotToken() {
-        return TOKEN;
+        return InfoGetter.getInstance().getBotConfig().get("token");
     }
 }

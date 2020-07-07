@@ -2,6 +2,7 @@ package ru.mixailnab.exchangeratebot;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -62,12 +63,16 @@ public class MessageParser {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(message);
         logger.info("Trying to find date.");
-        if(matcher.find()) {
+        if (matcher.find()) {
             SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
             try {
                 Date date = format.parse(matcher.group());
+                Date now = new Date();
+                if (date.after(now)) {
+                    return null;
+                }
                 System.out.println(matcher.group() + "  " + format.format(date));
-                if(matcher.group().equals(format.format(date))) {
+                if (matcher.group().equals(format.format(date))) {
                     logger.info("Date was successfully found.");
                     return format.format(date);
                 }
